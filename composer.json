@@ -1,0 +1,38 @@
+{
+    "name": "fyre/php",
+    "description": "A PHP framework.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elusive",
+            "email": "elusivecodes@gmail.com"
+        }
+    ],
+    "autoload": {},
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "fyre/cache": "^1.0",
+        "fyre/controller": "^1.0",
+        "fyre/encryption": "^1.0",
+        "fyre/engine": "^1.0",
+        "fyre/error": "^1.0",
+        "fyre/loader": "^1.0",
+        "fyre/log": "^1.0",
+        "fyre/mail": "^1.0",
+        "fyre/orm": "^1.0",
+        "fyre/session": "^1.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "mkdir language",
+            "mkdir log",
+            "mkdir tmp",
+            "chmod 0777 log",
+            "chmod 0777 tmp",
+            "chmod +x bin/fyre"
+        ]
+    }
+}
