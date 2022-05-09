@@ -24,15 +24,5 @@
         "fyre/mail": "^1.0",
         "fyre/orm": "^1.0",
         "fyre/session": "^1.0"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "mkdir language",
-            "mkdir log",
-            "mkdir tmp",
-            "chmod 0777 log",
-            "chmod 0777 tmp",
-            "chmod +x bin/fyre"
-        ]
     }
 }
