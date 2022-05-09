@@ -27,8 +27,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "chmod +x bin/fyre",
-            "chmod +x bin/server"
+            "chmod +x ./bin/fyre",
+            "chmod +x ./bin/server"
         ]
     }
 }
