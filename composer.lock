@@ -394,16 +394,16 @@
         },
         {
             "name": "fyre/datetime",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreDateTime.git",
-                "reference": "e0daa98818039d726c31c98bac511cd0f564a32d"
+                "reference": "8343158ce13f0f37eab714c65e02dd62e71e8424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreDateTime/zipball/e0daa98818039d726c31c98bac511cd0f564a32d",
-                "reference": "e0daa98818039d726c31c98bac511cd0f564a32d",
+                "url": "https://api.github.com/repos/elusivecodes/FyreDateTime/zipball/8343158ce13f0f37eab714c65e02dd62e71e8424",
+                "reference": "8343158ce13f0f37eab714c65e02dd62e71e8424",
                 "shasum": ""
             },
             "require-dev": {
@@ -428,9 +428,9 @@
             "description": "A DateTime library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreDateTime/issues",
-                "source": "https://github.com/elusivecodes/FyreDateTime/tree/v1.0.7"
+                "source": "https://github.com/elusivecodes/FyreDateTime/tree/v1.0.8"
             },
-            "time": "2022-04-04T08:20:49+00:00"
+            "time": "2022-05-15T13:13:21+00:00"
         },
         {
             "name": "fyre/db",
@@ -1155,16 +1155,16 @@
         },
         {
             "name": "fyre/orm",
-            "version": "v1.0.4",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreORM.git",
-                "reference": "7bcdeb53c66cdebd52f43f17353ad31ba0d46a02"
+                "reference": "5b4c6cfe42db17621382dbe3b6ed8f47383ffeac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreORM/zipball/7bcdeb53c66cdebd52f43f17353ad31ba0d46a02",
-                "reference": "7bcdeb53c66cdebd52f43f17353ad31ba0d46a02",
+                "url": "https://api.github.com/repos/elusivecodes/FyreORM/zipball/5b4c6cfe42db17621382dbe3b6ed8f47383ffeac",
+                "reference": "5b4c6cfe42db17621382dbe3b6ed8f47383ffeac",
                 "shasum": ""
             },
             "require": {
@@ -1197,9 +1197,9 @@
             "description": "An ORM library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreORM/issues",
-                "source": "https://github.com/elusivecodes/FyreORM/tree/v1.0.4"
+                "source": "https://github.com/elusivecodes/FyreORM/tree/v1.1.0"
             },
-            "time": "2022-04-04T08:41:19+00:00"
+            "time": "2022-05-21T05:21:26+00:00"
         },
         {
             "name": "fyre/path",
