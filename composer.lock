@@ -1155,16 +1155,16 @@
         },
         {
             "name": "fyre/orm",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreORM.git",
-                "reference": "5b4c6cfe42db17621382dbe3b6ed8f47383ffeac"
+                "reference": "d9b2013ea31827b60003ad970ea3915809495f0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreORM/zipball/5b4c6cfe42db17621382dbe3b6ed8f47383ffeac",
-                "reference": "5b4c6cfe42db17621382dbe3b6ed8f47383ffeac",
+                "url": "https://api.github.com/repos/elusivecodes/FyreORM/zipball/d9b2013ea31827b60003ad970ea3915809495f0c",
+                "reference": "d9b2013ea31827b60003ad970ea3915809495f0c",
                 "shasum": ""
             },
             "require": {
@@ -1197,9 +1197,9 @@
             "description": "An ORM library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreORM/issues",
-                "source": "https://github.com/elusivecodes/FyreORM/tree/v1.1.0"
+                "source": "https://github.com/elusivecodes/FyreORM/tree/v1.1.1"
             },
-            "time": "2022-05-21T05:21:26+00:00"
+            "time": "2022-05-30T10:41:13+00:00"
         },
         {
             "name": "fyre/path",
@@ -1378,16 +1378,16 @@
         },
         {
             "name": "fyre/schema",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreSchema.git",
-                "reference": "ba6600d04ae0294d52fe8298ba108906ef0adee4"
+                "reference": "a753c368b9e168d12a74ca65e3202211e3fa1af5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreSchema/zipball/ba6600d04ae0294d52fe8298ba108906ef0adee4",
-                "reference": "ba6600d04ae0294d52fe8298ba108906ef0adee4",
+                "url": "https://api.github.com/repos/elusivecodes/FyreSchema/zipball/a753c368b9e168d12a74ca65e3202211e3fa1af5",
+                "reference": "a753c368b9e168d12a74ca65e3202211e3fa1af5",
                 "shasum": ""
             },
             "require": {
@@ -1417,9 +1417,9 @@
             "description": "A database schema library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreSchema/issues",
-                "source": "https://github.com/elusivecodes/FyreSchema/tree/v1.0.5"
+                "source": "https://github.com/elusivecodes/FyreSchema/tree/v1.0.6"
             },
-            "time": "2022-03-16T11:53:16+00:00"
+            "time": "2022-05-30T10:35:52+00:00"
         },
         {
             "name": "fyre/server",
@@ -1472,16 +1472,16 @@
         },
         {
             "name": "fyre/session",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreSession.git",
-                "reference": "c12bc011feb2941133dfdc8b024bae7c2ee56e7b"
+                "reference": "eaafb215914a449bfea8dc0a4c0ad1af976b6cc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreSession/zipball/c12bc011feb2941133dfdc8b024bae7c2ee56e7b",
-                "reference": "c12bc011feb2941133dfdc8b024bae7c2ee56e7b",
+                "url": "https://api.github.com/repos/elusivecodes/FyreSession/zipball/eaafb215914a449bfea8dc0a4c0ad1af976b6cc1",
+                "reference": "eaafb215914a449bfea8dc0a4c0ad1af976b6cc1",
                 "shasum": ""
             },
             "require": {
@@ -1512,9 +1512,9 @@
             "description": "A session library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreSession/issues",
-                "source": "https://github.com/elusivecodes/FyreSession/tree/v1.0.1"
+                "source": "https://github.com/elusivecodes/FyreSession/tree/v1.0.2"
             },
-            "time": "2022-03-26T10:10:59+00:00"
+            "time": "2022-05-30T10:42:26+00:00"
         },
         {
             "name": "fyre/typeparser",
