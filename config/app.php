@@ -6,6 +6,7 @@ use
     Fyre\DB\Handlers\MySQL\MySQLConnection,
     Fyre\Log\Handlers\FileLogger,
     Fyre\Mail\Handlers\SmtpMailer,
+    Fyre\Queue\Handlers\RedisQueue,
     Fyre\Session\Handlers\FileSessionHandler,
     Fyre\Utility\Path;
 
@@ -50,6 +51,11 @@ return [
             'port' => '465',
             'auth' => false,
             'tls' => false
+        ]
+    ],
+    'Queue' => [
+        'default' => [
+            'className' => RedisQueue::class
         ]
     ],
     'Session' => [
