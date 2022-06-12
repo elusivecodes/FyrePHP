@@ -22,6 +22,7 @@
         "fyre/loader": "^1.0",
         "fyre/log": "^1.0",
         "fyre/mail": "^1.0",
+        "fyre/migration": "^1.0",
         "fyre/orm": "^1.0",
         "fyre/queue": "^1.0",
         "fyre/session": "^1.0"
