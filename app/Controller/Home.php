@@ -17,6 +17,8 @@ class Home extends Controller
      */
     public function index()
     {
+        $this->set('title', 'FyrePHP');
+
         $this->render('Home/index');
     }
 

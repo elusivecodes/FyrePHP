@@ -20,7 +20,9 @@ class Error extends Controller
     {
         $exception = ErrorHandler::getException();
 
+        $this->set('title', $exception->getMessage());
         $this->set('exception', $exception);
+
         $this->render('Error/default');
     }
 

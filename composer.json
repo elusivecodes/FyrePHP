@@ -15,17 +15,18 @@
     },
     "require": {
         "fyre/cache": "^1.0",
-        "fyre/controller": "^1.0",
+        "fyre/controller": "^2.0",
         "fyre/encryption": "^1.0",
-        "fyre/engine": "^1.0",
+        "fyre/engine": "^2.0",
         "fyre/error": "^1.0",
         "fyre/loader": "^1.0",
         "fyre/log": "^1.0",
         "fyre/mail": "^1.0",
         "fyre/migration": "^1.0",
-        "fyre/orm": "^1.0",
+        "fyre/orm": "^2.0",
         "fyre/queue": "^1.0",
-        "fyre/session": "^1.0"
+        "fyre/session": "^1.0",
+        "fyre/view": "^2.0"
     },
     "scripts": {
         "post-install-cmd": [

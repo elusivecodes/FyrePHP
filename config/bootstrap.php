@@ -8,6 +8,7 @@ use
     Fyre\Log\Log,
     Fyre\Mail\Mail,
     Fyre\Queue\QueueManager,
+    Fyre\Router\Router,
     Fyre\Schema\SchemaRegistry,
     Fyre\Session\Session;
 
@@ -17,4 +18,5 @@ Log::setConfig(Config::get('Log', []));
 Mail::setConfig(Config::get('Mail', []));
 QueueManager::setConfig(Config::get('Queue', []));
 SchemaRegistry::setCache(Cache::use());
+Router::setBaseUri(Config::get('App.baseUri', ''));
 Session::register(Config::get('Session', []));
