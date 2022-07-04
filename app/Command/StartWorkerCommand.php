@@ -13,12 +13,12 @@ use function
     pcntl_fork;
 
 /**
- * StartWorker
+ * StartWorkerCommand
  */
-class StartWorker extends Command
+class StartWorkerCommand extends Command
 {
 
-    protected string $name = 'Start Worker Command';
+    protected string|null $name = 'Start Worker Command';
 
     protected string $description = 'This command will start a new queue worker.';
 

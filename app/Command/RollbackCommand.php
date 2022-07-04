@@ -9,14 +9,14 @@ use
     Fyre\Migration\MigrationRunner;
 
 /**
- * Migrate
+ * RollbackCommand
  */
-class Migrate extends Command
+class RollbackCommand extends Command
 {
 
-    protected string $name = 'Migrate Command';
+    protected string|null $name = 'Rollback Command';
 
-    protected string $description = 'This command will perform migrations.';
+    protected string $description = 'This command will perform rollbacks.';
 
     /**
      * Run the command.
@@ -25,7 +25,7 @@ class Migrate extends Command
      */
     public function run(array $arguments = []): int|null
     {
-        MigrationRunner::migrate($arguments['version'] ?? null);
+        MigrationRunner::rollback($arguments['version'] ?? null);
 
         return static::CODE_SUCCESS;
     }

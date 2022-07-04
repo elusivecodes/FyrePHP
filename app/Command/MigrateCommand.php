@@ -5,17 +5,18 @@ namespace App\Command;
 
 use
     Fyre\Command\Command,
-    Fyre\Console\Console;
+    Fyre\Console\Console,
+    Fyre\Migration\MigrationRunner;
 
 /**
- * Test
+ * MigrateCommand
  */
-class Test extends Command
+class MigrateCommand extends Command
 {
 
-    protected string $name = 'Test Command';
+    protected string|null $name = 'Migrate Command';
 
-    protected string $description = 'This is a test command.';
+    protected string $description = 'This command will perform migrations.';
 
     /**
      * Run the command.
@@ -24,7 +25,7 @@ class Test extends Command
      */
     public function run(array $arguments = []): int|null
     {
-        Console::write('This is a test command');
+        MigrationRunner::migrate($arguments['version'] ?? null);
 
         return static::CODE_SUCCESS;
     }

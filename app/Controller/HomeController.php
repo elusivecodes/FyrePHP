@@ -3,13 +3,10 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-use
-    Fyre\Controller\Controller;
-
 /**
- * Home
+ * HomeController
  */
-class Home extends Controller
+class HomeController extends AppController
 {
 
     /**

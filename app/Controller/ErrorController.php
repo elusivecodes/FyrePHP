@@ -8,9 +8,9 @@ use
     Fyre\Error\ErrorHandler;
 
 /**
- * Error
+ * ErrorController
  */
-class Error extends Controller
+class ErrorController extends Controller
 {
 
     /**

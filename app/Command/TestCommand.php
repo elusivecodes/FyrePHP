@@ -5,18 +5,17 @@ namespace App\Command;
 
 use
     Fyre\Command\Command,
-    Fyre\Console\Console,
-    Fyre\Migration\MigrationRunner;
+    Fyre\Console\Console;
 
 /**
- * Rollback
+ * TestCommand
  */
-class Rollback extends Command
+class TestCommand extends Command
 {
 
-    protected string $name = 'Rollback Command';
+    protected string|null $name = 'Test Command';
 
-    protected string $description = 'This command will perform rollbacks.';
+    protected string $description = 'This is a test command.';
 
     /**
      * Run the command.
@@ -25,7 +24,7 @@ class Rollback extends Command
      */
     public function run(array $arguments = []): int|null
     {
-        MigrationRunner::rollback($arguments['version'] ?? null);
+        Console::write('This is a test command');
 
         return static::CODE_SUCCESS;
     }
