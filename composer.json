@@ -9,9 +9,10 @@
             "email": "elusivecodes@gmail.com"
         }
     ],
-    "autoload": {},
-    "config": {
-        "optimize-autoloader": true
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
     },
     "require": {
         "fyre/cache": "^1.0",

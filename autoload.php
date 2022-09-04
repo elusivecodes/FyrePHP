@@ -7,6 +7,7 @@ use
     Fyre\Utility\Path;
 
 // Constants
+define('TIME_START', time());
 define('APP', PATH::join(__DIR__, 'app'));
 define('CONFIG', PATH::join(__DIR__, 'config'));
 define('LANG', PATH::join(__DIR__, 'language'));
@@ -16,9 +17,7 @@ define('TMP', PATH::join(__DIR__, 'tmp'));
 
 // Register Loader
 Loader::addClassMap($composer->getClassMap());
-Loader::addNamespaces([
-    'App' => APP
-]);
+Loader::addNamespaces($composer->getPrefixesPsr4());
 Loader::register();
 
 // Run Application
