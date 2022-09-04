@@ -92,16 +92,16 @@
         },
         {
             "name": "fyre/command",
-            "version": "v2.0.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreCommand.git",
-                "reference": "917d78847bfeb0a93df18528643f8346676ae78d"
+                "reference": "5f02197c2b6539ca004603919d9876a9de1d8520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreCommand/zipball/917d78847bfeb0a93df18528643f8346676ae78d",
-                "reference": "917d78847bfeb0a93df18528643f8346676ae78d",
+                "url": "https://api.github.com/repos/elusivecodes/FyreCommand/zipball/5f02197c2b6539ca004603919d9876a9de1d8520",
+                "reference": "5f02197c2b6539ca004603919d9876a9de1d8520",
                 "shasum": ""
             },
             "require": {
@@ -131,9 +131,9 @@
             "description": "A command library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreCommand/issues",
-                "source": "https://github.com/elusivecodes/FyreCommand/tree/v2.0.1"
+                "source": "https://github.com/elusivecodes/FyreCommand/tree/v2.0.2"
             },
-            "time": "2022-09-03T05:38:07+00:00"
+            "time": "2022-09-04T08:34:32+00:00"
         },
         {
             "name": "fyre/config",
@@ -394,16 +394,16 @@
         },
         {
             "name": "fyre/datetime",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreDateTime.git",
-                "reference": "8343158ce13f0f37eab714c65e02dd62e71e8424"
+                "reference": "a0bcd304dd7c357c81e6c80fd5ffbd7996ab4955"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreDateTime/zipball/8343158ce13f0f37eab714c65e02dd62e71e8424",
-                "reference": "8343158ce13f0f37eab714c65e02dd62e71e8424",
+                "url": "https://api.github.com/repos/elusivecodes/FyreDateTime/zipball/a0bcd304dd7c357c81e6c80fd5ffbd7996ab4955",
+                "reference": "a0bcd304dd7c357c81e6c80fd5ffbd7996ab4955",
                 "shasum": ""
             },
             "require-dev": {
@@ -428,9 +428,9 @@
             "description": "A DateTime library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreDateTime/issues",
-                "source": "https://github.com/elusivecodes/FyreDateTime/tree/v1.0.8"
+                "source": "https://github.com/elusivecodes/FyreDateTime/tree/v1.0.9"
             },
-            "time": "2022-05-15T13:13:21+00:00"
+            "time": "2022-09-04T08:32:20+00:00"
         },
         {
             "name": "fyre/db",
@@ -614,16 +614,16 @@
         },
         {
             "name": "fyre/error",
-            "version": "v2.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreError.git",
-                "reference": "0bca217aaba34d17ec078167e2ad1aabe5648a39"
+                "reference": "1801a8565e1747ec29905cecd2a789130e0175d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreError/zipball/0bca217aaba34d17ec078167e2ad1aabe5648a39",
-                "reference": "0bca217aaba34d17ec078167e2ad1aabe5648a39",
+                "url": "https://api.github.com/repos/elusivecodes/FyreError/zipball/1801a8565e1747ec29905cecd2a789130e0175d6",
+                "reference": "1801a8565e1747ec29905cecd2a789130e0175d6",
                 "shasum": ""
             },
             "require": {
@@ -653,9 +653,9 @@
             "description": "An error handling library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreError/issues",
-                "source": "https://github.com/elusivecodes/FyreError/tree/v2.0"
+                "source": "https://github.com/elusivecodes/FyreError/tree/v2.0.1"
             },
-            "time": "2022-07-04T08:30:43+00:00"
+            "time": "2022-09-04T08:41:07+00:00"
         },
         {
             "name": "fyre/filesystem",

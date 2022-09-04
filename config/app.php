@@ -35,6 +35,10 @@ return [
         ]
     ],
     // 'Encryption' => [],
+    'Error' => [
+        'level' => E_ALL,
+        'log' => true
+    ],
     'Log' => [
         'default' => [
             'className' => FileLogger::class,

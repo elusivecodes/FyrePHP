@@ -5,12 +5,15 @@ use
     Fyre\Cache\Cache,
     Fyre\Config\Config,
     Fyre\DB\ConnectionManager,
+    Fyre\Error\ErrorHandler,
     Fyre\Log\Log,
     Fyre\Mail\Mail,
     Fyre\Queue\QueueManager,
     Fyre\Router\Router,
     Fyre\Schema\SchemaRegistry,
     Fyre\Session\Session;
+
+ErrorHandler::register(Config::get('Error', []));
 
 Cache::setConfig(Config::get('Cache', []));
 ConnectionManager::setConfig(Config::get('Database', []));
