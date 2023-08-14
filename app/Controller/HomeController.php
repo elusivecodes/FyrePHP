@@ -12,11 +12,9 @@ class HomeController extends AppController
     /**
      * Render the index view.
      */
-    public function index()
+    public function index(): void
     {
-        $this->set('title', 'FyrePHP');
-
-        $this->render('Home/index');
+        $this->set('title', 'FyrePHP V4');
     }
 
 }

@@ -1,25 +1,30 @@
 <?php
 declare(strict_types=1);
 
-use
-    Fyre\Cache\Handlers\FileCacher,
-    Fyre\DB\Handlers\MySQL\MySQLConnection,
-    Fyre\Log\Handlers\FileLogger,
-    Fyre\Mail\Handlers\SmtpMailer,
-    Fyre\Queue\Handlers\RedisQueue,
-    Fyre\Session\Handlers\FileSessionHandler,
-    Fyre\Utility\Path;
+use Fyre\Cache\Handlers\FileCacher;
+use Fyre\DB\Handlers\MySQL\MySQLConnection;
+use Fyre\Log\Handlers\FileLogger;
+use Fyre\Mail\Handlers\SmtpMailer;
+use Fyre\Queue\Handlers\RedisQueue;
+use Fyre\Session\Handlers\FileSessionHandler;
+use Fyre\Utility\Path;
 
 return [
     'App' => [
         'baseUri' => '',
-        'charset' => 'UTF-8',
-        'debug' => true
+        'debug' => true,
+        'encoding' => 'UTF-8',
+        'locale' => 'en',
+        'timezone' => 'UTC'
     ],
     'Cache' => [
         'default' => [
             'className' => FileCacher::class,
             'path' => Path::join(TMP, 'cache')
+        ],
+        'schema' => [
+            'className' => FileCacher::class,
+            'path' => Path::join(TMP, 'schema')
         ]
     ],
     'Database' => [
@@ -34,7 +39,6 @@ return [
             'charset' => 'utf8mb4'
         ]
     ],
-    // 'Encryption' => [],
     'Error' => [
         'level' => E_ALL,
         'log' => true

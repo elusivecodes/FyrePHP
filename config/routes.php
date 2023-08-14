@@ -1,8 +1,7 @@
 <?php
 declare(strict_types=1);
 
-use
-    Fyre\Router\Router;
+use Fyre\Router\Router;
 
 Router::setDefaultNamespace('App\Controller');
 

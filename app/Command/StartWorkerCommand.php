@@ -3,14 +3,12 @@ declare(strict_types=1);
 
 namespace App\Command;
 
-use
-    Fyre\Command\Command,
-    Fyre\Console\Console,
-    Fyre\Queue\Worker,
-    RuntimeException;
+use Fyre\Command\Command;
+use Fyre\Console\Console;
+use Fyre\Queue\Worker;
+use RuntimeException;
 
-use function
-    pcntl_fork;
+use function pcntl_fork;
 
 /**
  * StartWorkerCommand

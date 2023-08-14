@@ -1,19 +1,18 @@
 <?php
 declare(strict_types=1);
 
-use
-    App\Application,
-    Fyre\Middleware\MiddlewareQueue,
-    Fyre\Middleware\RequestHandler,
-    Fyre\Server\ServerRequest;
+use App\Application;
+use Fyre\Middleware\MiddlewareQueue;
+use Fyre\Middleware\RequestHandler;
+use Fyre\Server\ServerRequest;
 
 // Load Composer
 $composer = require realpath('../vendor/autoload.php');
 
-// Load App
+// Load application
 require realpath('../autoload.php');
 
-// Run Application
-$queue = Application::middleware(new MiddlewareQueue);
+// Handle request
+$queue = Application::middleware(new MiddlewareQueue());
 $handler = new RequestHandler($queue);
-$handler->handle(new ServerRequest)->send();
+$handler->handle(new ServerRequest())->send();

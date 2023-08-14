@@ -3,13 +3,12 @@ declare(strict_types=1);
 
 namespace App;
 
-use
-    Fyre\CSP\Middleware\CspMiddleware,
-    Fyre\CSRF\Middleware\CsrfProtectionMiddleware,
-    Fyre\Engine\Engine,
-    Fyre\Error\Middleware\ErrorHandlerMiddleware,
-    Fyre\Middleware\MiddlewareQueue,
-    Fyre\Router\Middleware\RouterMiddleware;
+use Fyre\Engine\Engine;
+use Fyre\Error\Middleware\ErrorHandlerMiddleware;
+use Fyre\Middleware\MiddlewareQueue;
+use Fyre\Router\Middleware\RouterMiddleware;
+use Fyre\Security\Middleware\CspMiddleware;
+use Fyre\Security\Middleware\CsrfProtectionMiddleware;
 
 /**
  * Application
@@ -33,10 +32,10 @@ abstract class Application extends Engine
     public static function middleware(MiddlewareQueue $queue): MiddlewareQueue
     {
         return $queue
-            ->add(new ErrorHandlerMiddleware)
-            ->add(new CsrfProtectionMiddleware)
-            ->add(new CspMiddleware)
-            ->add(new RouterMiddleware);
+            ->add(new ErrorHandlerMiddleware())
+            ->add(new CsrfProtectionMiddleware())
+            ->add(new CspMiddleware())
+            ->add(new RouterMiddleware());
     }
 
 }

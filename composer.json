@@ -15,20 +15,20 @@
         }
     },
     "require": {
-        "fyre/cache": "^1.0",
-        "fyre/command": "^2.0",
-        "fyre/controller": "^3.0",
-        "fyre/encryption": "^1.0",
-        "fyre/engine": "^3.0",
-        "fyre/error": "^2.0",
-        "fyre/loader": "^1.0",
-        "fyre/log": "^1.0",
-        "fyre/mail": "^1.0",
-        "fyre/migration": "^1.0",
-        "fyre/orm": "^3.0",
-        "fyre/queue": "^1.0",
-        "fyre/session": "^1.0",
-        "fyre/view": "^3.0"
+        "fyre/cache": "^3.0",
+        "fyre/command": "^3.0",
+        "fyre/controller": "^5.0",
+        "fyre/encryption": "3.0",
+        "fyre/engine": "^5.0",
+        "fyre/error": "^3.0",
+        "fyre/loader": "^2.0",
+        "fyre/log": "^3.0",
+        "fyre/mail": "^2.0",
+        "fyre/migration": "^2.0",
+        "fyre/orm": "^4.0",
+        "fyre/queue": "^2.0",
+        "fyre/session": "^2.0",
+        "fyre/view": "^5.0"
     },
     "scripts": {
         "post-install-cmd": [

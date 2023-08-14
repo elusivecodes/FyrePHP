@@ -3,8 +3,7 @@ declare(strict_types=1);
 
 namespace App\Command;
 
-use
-    Fyre\Command\Command;
+use Fyre\Command\Command;
 
 /**
  * AppCommand
