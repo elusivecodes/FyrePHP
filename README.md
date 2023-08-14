@@ -1,6 +1,6 @@
 # FyrePHP
 
-**FyrePHP** is a free, framework for *PHP*.
+**FyrePHP** is a free, open-source framework for *PHP*.
 
 
 ## Table Of Contents
