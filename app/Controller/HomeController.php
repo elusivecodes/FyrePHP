@@ -14,7 +14,7 @@ class HomeController extends AppController
      */
     public function index(): void
     {
-        $this->set('title', 'FyrePHP V4');
+        $this->set('title', 'FyrePHP V5');
     }
 
 }
