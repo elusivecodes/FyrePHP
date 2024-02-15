@@ -17,9 +17,9 @@
     "require": {
         "fyre/cache": "^3.0",
         "fyre/command": "^3.0",
-        "fyre/controller": "^6.0",
+        "fyre/controller": "^6.1.0",
         "fyre/encryption": "3.0",
-        "fyre/engine": "^6.0",
+        "fyre/engine": "^6.1.0",
         "fyre/error": "^3.0",
         "fyre/loader": "^2.0",
         "fyre/log": "^3.0",
@@ -28,7 +28,7 @@
         "fyre/orm": "^5.0",
         "fyre/queue": "^2.0",
         "fyre/session": "^3.0",
-        "fyre/view": "^6.0"
+        "fyre/view": "^6.1.0"
     },
     "scripts": {
         "post-install-cmd": [
