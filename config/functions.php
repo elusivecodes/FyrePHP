@@ -11,7 +11,7 @@ use Fyre\Utility\HtmlHelper;
  * @param mixed $default The default value.
  * @return mixed The config value.
  */
-function config(string $key, $default): mixed
+function config(string $key, $default = null): mixed
 {
     return Config::get($key, $default);
 }

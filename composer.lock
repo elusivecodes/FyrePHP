@@ -1042,16 +1042,16 @@
         },
         {
             "name": "fyre/log",
-            "version": "v3.0.6",
+            "version": "v3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreLog.git",
-                "reference": "f444c1416915a20d623b0985eb96e9cd9e3a8fa0"
+                "reference": "676ae973556609c95b90df1ef8090cc3f7d366fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreLog/zipball/f444c1416915a20d623b0985eb96e9cd9e3a8fa0",
-                "reference": "f444c1416915a20d623b0985eb96e9cd9e3a8fa0",
+                "url": "https://api.github.com/repos/elusivecodes/FyreLog/zipball/676ae973556609c95b90df1ef8090cc3f7d366fe",
+                "reference": "676ae973556609c95b90df1ef8090cc3f7d366fe",
                 "shasum": ""
             },
             "require": {
@@ -1080,9 +1080,9 @@
             "description": "A logging library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreLog/issues",
-                "source": "https://github.com/elusivecodes/FyreLog/tree/v3.0.6"
+                "source": "https://github.com/elusivecodes/FyreLog/tree/v3.0.7"
             },
-            "time": "2024-03-26T09:22:22+00:00"
+            "time": "2024-04-30T06:32:19+00:00"
         },
         {
             "name": "fyre/mail",
@@ -1605,16 +1605,16 @@
         },
         {
             "name": "fyre/server",
-            "version": "v2.0.4",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreServer.git",
-                "reference": "bfb93b9927c64cc9e10744ca4209b2052c0e7dec"
+                "reference": "0f292e30c9c09220e445ec3f0147f34b2ab84b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreServer/zipball/bfb93b9927c64cc9e10744ca4209b2052c0e7dec",
-                "reference": "bfb93b9927c64cc9e10744ca4209b2052c0e7dec",
+                "url": "https://api.github.com/repos/elusivecodes/FyreServer/zipball/0f292e30c9c09220e445ec3f0147f34b2ab84b23",
+                "reference": "0f292e30c9c09220e445ec3f0147f34b2ab84b23",
                 "shasum": ""
             },
             "require": {
@@ -1648,9 +1648,9 @@
             "description": "A HTTP server request/response library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreServer/issues",
-                "source": "https://github.com/elusivecodes/FyreServer/tree/v2.0.4"
+                "source": "https://github.com/elusivecodes/FyreServer/tree/v2.0.5"
             },
-            "time": "2024-03-26T09:20:14+00:00"
+            "time": "2024-04-30T06:26:10+00:00"
         },
         {
             "name": "fyre/session",
