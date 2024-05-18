@@ -20,6 +20,10 @@ locale_set_default(Config::get('App.locale', 'en'));
 date_default_timezone_set(Config::get('App.timezone', 'UTC'));
 mb_internal_encoding(Config::get('App.encoding', 'UTF-8'));
 
+if (PHP_SAPI === 'cli') {
+    Config::set('Log.default.suffix', '-cli');
+}
+
 if (Config::get('App.debug')) {
     Cache::disable();
 }
