@@ -10,6 +10,6 @@ while getopts ":p:" opt; do
     esac
 done
 
-exec php -S localhost:${port} -t "$(dirname -- "$0")"/../public_html
+exec php -S localhost:${port} -t "$(dirname -- "$0")"/../public
 
 exit

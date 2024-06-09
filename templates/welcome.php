@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/elusivecodes/frostui@latest/dist/frost-ui.min.css" />
 </head>
 
-<body class="d-flex vh-100 justify-content-center align-items-center text-bg-danger bg-gradient">
+<body class="d-flex vh-100 justify-content-center align-items-center text-bg-warning bg-gradient">
     <div class="container w-100">
         <div class="text-center">
-            <h1 class="display-1 mb-5">
-                <span style="font-size: 200%;"><?=$exception->getCode()?></span>
+            <h1 class="display-1 fw-bold mb-5">
+                <span style="font-size: 150%;"><?=$title?></span>
             </h1>
-            <p class="display-6"><?=$title?></p>
+            <p class="display-3">Welcome to the future.</p>
         </div>
     </div>
 </body>

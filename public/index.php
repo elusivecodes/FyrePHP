@@ -15,4 +15,4 @@ require realpath('../autoload.php');
 // Handle request
 $queue = Application::middleware(new MiddlewareQueue());
 $handler = new RequestHandler($queue);
-$handler->handle(new ServerRequest())->send();
+$handler->handle(ServerRequest::instance())->send();

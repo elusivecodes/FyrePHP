@@ -15,7 +15,8 @@ return [
         'debug' => true,
         'encoding' => 'UTF-8',
         'locale' => 'en',
-        'timezone' => 'UTC'
+        'timezone' => 'UTC',
+        'defaultLayout' => null
     ],
     'Cache' => [
         'default' => [

@@ -4,11 +4,15 @@ declare(strict_types=1);
 namespace App;
 
 use Fyre\Engine\Engine;
+use Fyre\Error\ErrorHandler;
 use Fyre\Error\Middleware\ErrorHandlerMiddleware;
 use Fyre\Middleware\MiddlewareQueue;
 use Fyre\Router\Middleware\RouterMiddleware;
+use Fyre\Router\Router;
 use Fyre\Security\Middleware\CspMiddleware;
 use Fyre\Security\Middleware\CsrfProtectionMiddleware;
+
+use function view;
 
 /**
  * Application
@@ -32,10 +36,22 @@ abstract class Application extends Engine
     public static function middleware(MiddlewareQueue $queue): MiddlewareQueue
     {
         return $queue
-            ->add(new ErrorHandlerMiddleware())
-            ->add(new CsrfProtectionMiddleware())
-            ->add(new CspMiddleware())
-            ->add(new RouterMiddleware());
+            ->add(ErrorHandlerMiddleware::class)
+            ->add(CsrfProtectionMiddleware::class)
+            ->add(CspMiddleware::class)
+            ->add(RouterMiddleware::class);
+    }
+
+    /**
+     * Build application routes.
+     */
+    public static function routes(): void
+    {
+        parent::routes();
+
+        Router::setErrorRoute(fn(): string => view('error', [
+            'exception' => ErrorHandler::getException()
+        ]));
     }
 
 }
