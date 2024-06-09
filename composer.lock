@@ -92,16 +92,16 @@
         },
         {
             "name": "fyre/command",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreCommand.git",
-                "reference": "b37b501610dc84d7a140e739154fab74b337813c"
+                "reference": "e69d657542887ff7df78f8591b26585d846b1966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreCommand/zipball/b37b501610dc84d7a140e739154fab74b337813c",
-                "reference": "b37b501610dc84d7a140e739154fab74b337813c",
+                "url": "https://api.github.com/repos/elusivecodes/FyreCommand/zipball/e69d657542887ff7df78f8591b26585d846b1966",
+                "reference": "e69d657542887ff7df78f8591b26585d846b1966",
                 "shasum": ""
             },
             "require": {
@@ -130,9 +130,9 @@
             "description": "A command library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreCommand/issues",
-                "source": "https://github.com/elusivecodes/FyreCommand/tree/v4.0.1"
+                "source": "https://github.com/elusivecodes/FyreCommand/tree/v4.0.2"
             },
-            "time": "2024-06-09T07:05:37+00:00"
+            "time": "2024-06-09T12:46:10+00:00"
         },
         {
             "name": "fyre/config",
@@ -473,16 +473,16 @@
         },
         {
             "name": "fyre/engine",
-            "version": "v7.0",
+            "version": "v7.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreEngine.git",
-                "reference": "8ef53847a0b5ef5fb03f94f8165539ade5d5bdac"
+                "reference": "d64393ee55c12b8d9cfb0101738e62a34d3eb629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreEngine/zipball/8ef53847a0b5ef5fb03f94f8165539ade5d5bdac",
-                "reference": "8ef53847a0b5ef5fb03f94f8165539ade5d5bdac",
+                "url": "https://api.github.com/repos/elusivecodes/FyreEngine/zipball/d64393ee55c12b8d9cfb0101738e62a34d3eb629",
+                "reference": "d64393ee55c12b8d9cfb0101738e62a34d3eb629",
                 "shasum": ""
             },
             "require": {
@@ -522,9 +522,9 @@
             "description": "An engine library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreEngine/issues",
-                "source": "https://github.com/elusivecodes/FyreEngine/tree/v7.0"
+                "source": "https://github.com/elusivecodes/FyreEngine/tree/v7.0.1"
             },
-            "time": "2024-06-09T06:19:25+00:00"
+            "time": "2024-06-09T13:17:31+00:00"
         },
         {
             "name": "fyre/entity",
@@ -572,16 +572,16 @@
         },
         {
             "name": "fyre/error",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreError.git",
-                "reference": "304177f2be8d8727b3f04d4c164b52e55461100c"
+                "reference": "fb3f14ac8044bc97ab498eb9c5a70c1dfb30a983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreError/zipball/304177f2be8d8727b3f04d4c164b52e55461100c",
-                "reference": "304177f2be8d8727b3f04d4c164b52e55461100c",
+                "url": "https://api.github.com/repos/elusivecodes/FyreError/zipball/fb3f14ac8044bc97ab498eb9c5a70c1dfb30a983",
+                "reference": "fb3f14ac8044bc97ab498eb9c5a70c1dfb30a983",
                 "shasum": ""
             },
             "require": {
@@ -613,9 +613,9 @@
             "description": "An error handling library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreError/issues",
-                "source": "https://github.com/elusivecodes/FyreError/tree/v4.0.1"
+                "source": "https://github.com/elusivecodes/FyreError/tree/v4.0.2"
             },
-            "time": "2024-06-09T00:52:24+00:00"
+            "time": "2024-06-09T07:07:07+00:00"
         },
         {
             "name": "fyre/filesystem",
@@ -1169,16 +1169,16 @@
         },
         {
             "name": "fyre/migration",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreMigration.git",
-                "reference": "0c9841c3c44ad4804dd0c47e052a82adf50e53da"
+                "reference": "270b23a89e05fde2969f2005e6f6ebd4549081f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreMigration/zipball/0c9841c3c44ad4804dd0c47e052a82adf50e53da",
-                "reference": "0c9841c3c44ad4804dd0c47e052a82adf50e53da",
+                "url": "https://api.github.com/repos/elusivecodes/FyreMigration/zipball/270b23a89e05fde2969f2005e6f6ebd4549081f6",
+                "reference": "270b23a89e05fde2969f2005e6f6ebd4549081f6",
                 "shasum": ""
             },
             "require": {
@@ -1209,9 +1209,9 @@
             "description": "A database migration library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreMigration/issues",
-                "source": "https://github.com/elusivecodes/FyreMigration/tree/v3.1.1"
+                "source": "https://github.com/elusivecodes/FyreMigration/tree/v3.1.2"
             },
-            "time": "2024-06-09T01:01:55+00:00"
+            "time": "2024-06-09T12:44:02+00:00"
         },
         {
             "name": "fyre/negotiate",
@@ -1566,16 +1566,16 @@
         },
         {
             "name": "fyre/server",
-            "version": "v3.0.1",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreServer.git",
-                "reference": "e405b1de604da959524ee6e79a2789d764be7274"
+                "reference": "339fe671e08432498fe6841e252ecce80e076380"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreServer/zipball/e405b1de604da959524ee6e79a2789d764be7274",
-                "reference": "e405b1de604da959524ee6e79a2789d764be7274",
+                "url": "https://api.github.com/repos/elusivecodes/FyreServer/zipball/339fe671e08432498fe6841e252ecce80e076380",
+                "reference": "339fe671e08432498fe6841e252ecce80e076380",
                 "shasum": ""
             },
             "require": {
@@ -1609,9 +1609,9 @@
             "description": "A HTTP server request/response library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreServer/issues",
-                "source": "https://github.com/elusivecodes/FyreServer/tree/v3.0.1"
+                "source": "https://github.com/elusivecodes/FyreServer/tree/v3.1.0"
             },
-            "time": "2024-06-09T00:51:06+00:00"
+            "time": "2024-06-09T12:56:45+00:00"
         },
         {
             "name": "fyre/session",

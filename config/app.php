@@ -13,10 +13,10 @@ return [
     'App' => [
         'baseUri' => '',
         'debug' => true,
+        'defaultLayout' => null,
         'encoding' => 'UTF-8',
         'locale' => 'en',
-        'timezone' => 'UTC',
-        'defaultLayout' => null
+        'timezone' => 'UTC'
     ],
     'Cache' => [
         'default' => [
