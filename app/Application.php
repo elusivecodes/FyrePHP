@@ -5,13 +5,15 @@ namespace App;
 
 use Fyre\Engine\Engine;
 use Fyre\Error\ErrorHandler;
-use Fyre\Error\Middleware\ErrorHandlerMiddleware;
 use Fyre\Middleware\MiddlewareQueue;
 use Fyre\Router\Middleware\RouterMiddleware;
-use Fyre\Router\Router;
 use Fyre\Security\Middleware\CspMiddleware;
 use Fyre\Security\Middleware\CsrfProtectionMiddleware;
+use Fyre\Server\ClientResponse;
+use Throwable;
 
+use function json;
+use function request;
 use function view;
 
 /**
@@ -26,6 +28,17 @@ abstract class Application extends Engine
     public static function bootstrap(): void
     {
         parent::bootstrap();
+
+        ErrorHandler::setRenderer(fn(Throwable $exception): ClientResponse|string =>
+            match (request()->negotiate('content', ['text/html', 'application/json'])) {
+                'application/json' => json([
+                    'message'=> $exception->getMessage()
+                ]),
+                default => view('error', [
+                    'exception' => $exception
+                ])
+            }
+        );
     }
 
     /**
@@ -36,22 +49,9 @@ abstract class Application extends Engine
     public static function middleware(MiddlewareQueue $queue): MiddlewareQueue
     {
         return $queue
-            ->add(ErrorHandlerMiddleware::class)
             ->add(CsrfProtectionMiddleware::class)
             ->add(CspMiddleware::class)
             ->add(RouterMiddleware::class);
-    }
-
-    /**
-     * Build application routes.
-     */
-    public static function routes(): void
-    {
-        parent::routes();
-
-        Router::setErrorRoute(fn(): string => view('error', [
-            'exception' => ErrorHandler::getException()
-        ]));
     }
 
 }

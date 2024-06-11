@@ -473,16 +473,16 @@
         },
         {
             "name": "fyre/engine",
-            "version": "v7.0.1",
+            "version": "v7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreEngine.git",
-                "reference": "d64393ee55c12b8d9cfb0101738e62a34d3eb629"
+                "reference": "2795530612de7212f3ae74e79a897b4a1357c745"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreEngine/zipball/d64393ee55c12b8d9cfb0101738e62a34d3eb629",
-                "reference": "d64393ee55c12b8d9cfb0101738e62a34d3eb629",
+                "url": "https://api.github.com/repos/elusivecodes/FyreEngine/zipball/2795530612de7212f3ae74e79a897b4a1357c745",
+                "reference": "2795530612de7212f3ae74e79a897b4a1357c745",
                 "shasum": ""
             },
             "require": {
@@ -492,9 +492,11 @@
                 "fyre/entity": "^3.0",
                 "fyre/error": "^4.0",
                 "fyre/lang": "3.0",
+                "fyre/mail": "^2.0",
                 "fyre/middleware": "^2.0",
                 "fyre/migration": "^3.0",
                 "fyre/orm": "^6.0",
+                "fyre/queue": "^2.0",
                 "fyre/router": "^5.0",
                 "fyre/server": "^3.0",
                 "fyre/session": "^3.1",
@@ -522,9 +524,9 @@
             "description": "An engine library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreEngine/issues",
-                "source": "https://github.com/elusivecodes/FyreEngine/tree/v7.0.1"
+                "source": "https://github.com/elusivecodes/FyreEngine/tree/v7.0.2"
             },
-            "time": "2024-06-09T13:17:31+00:00"
+            "time": "2024-06-10T11:15:59+00:00"
         },
         {
             "name": "fyre/entity",
@@ -572,23 +574,22 @@
         },
         {
             "name": "fyre/error",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreError.git",
-                "reference": "fb3f14ac8044bc97ab498eb9c5a70c1dfb30a983"
+                "reference": "b54ca315ac5ed5073c43105d60cb041fc503c0b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreError/zipball/fb3f14ac8044bc97ab498eb9c5a70c1dfb30a983",
-                "reference": "fb3f14ac8044bc97ab498eb9c5a70c1dfb30a983",
+                "url": "https://api.github.com/repos/elusivecodes/FyreError/zipball/b54ca315ac5ed5073c43105d60cb041fc503c0b4",
+                "reference": "b54ca315ac5ed5073c43105d60cb041fc503c0b4",
                 "shasum": ""
             },
             "require": {
                 "fyre/console": "^3.0",
                 "fyre/log": "^3.0",
                 "fyre/middleware": "^2.0",
-                "fyre/router": "^5.0",
                 "fyre/server": "^3.0"
             },
             "require-dev": {
@@ -613,9 +614,9 @@
             "description": "An error handling library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreError/issues",
-                "source": "https://github.com/elusivecodes/FyreError/tree/v4.0.2"
+                "source": "https://github.com/elusivecodes/FyreError/tree/v4.0.3"
             },
-            "time": "2024-06-09T07:07:07+00:00"
+            "time": "2024-06-11T08:22:16+00:00"
         },
         {
             "name": "fyre/filesystem",
@@ -1476,16 +1477,16 @@
         },
         {
             "name": "fyre/router",
-            "version": "v5.0.2",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreRouter.git",
-                "reference": "813d36f2a3a297624b0567b5fb5bb8192dc9c7ca"
+                "reference": "85c213e1b37f79a84c84368c4484e0101fc28c4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreRouter/zipball/813d36f2a3a297624b0567b5fb5bb8192dc9c7ca",
-                "reference": "813d36f2a3a297624b0567b5fb5bb8192dc9c7ca",
+                "url": "https://api.github.com/repos/elusivecodes/FyreRouter/zipball/85c213e1b37f79a84c84368c4484e0101fc28c4f",
+                "reference": "85c213e1b37f79a84c84368c4484e0101fc28c4f",
                 "shasum": ""
             },
             "require": {
@@ -1515,9 +1516,9 @@
             "description": "A URL routing library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreRouter/issues",
-                "source": "https://github.com/elusivecodes/FyreRouter/tree/v5.0.2"
+                "source": "https://github.com/elusivecodes/FyreRouter/tree/v5.1.0"
             },
-            "time": "2024-06-09T06:28:29+00:00"
+            "time": "2024-06-11T08:24:35+00:00"
         },
         {
             "name": "fyre/schema",
