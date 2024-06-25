@@ -8,12 +8,12 @@ use Fyre\Utility\Path;
 // Constants
 define('TIME_START', hrtime());
 define('ROOT', __DIR__);
-define('APP', PATH::join(ROOT, 'app'));
-define('CONFIG', PATH::join(ROOT, 'config'));
-define('LANG', PATH::join(ROOT, 'language'));
-define('LOG', PATH::join(ROOT, 'log'));
-define('TEMPLATES', PATH::join(ROOT, 'templates'));
-define('TMP', PATH::join(ROOT, 'tmp'));
+define('APP', Path::join(ROOT, 'app'));
+define('CONFIG', Path::join(ROOT, 'config'));
+define('LANG', Path::join(ROOT, 'language'));
+define('LOG', Path::join(ROOT, 'log'));
+define('TEMPLATES', Path::join(ROOT, 'templates'));
+define('TMP', Path::join(ROOT, 'tmp'));
 
 // Register autoloader
 Loader::addClassMap($composer->getClassMap());

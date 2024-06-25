@@ -21,7 +21,6 @@ use function view;
  */
 abstract class Application extends Engine
 {
-
     /**
      * Bootstrap application.
      */
@@ -29,20 +28,25 @@ abstract class Application extends Engine
     {
         parent::bootstrap();
 
-        ErrorHandler::setRenderer(fn(Throwable $exception): ClientResponse|string =>
-            match (request()->negotiate('content', ['text/html', 'application/json'])) {
-                'application/json' => json([
-                    'message'=> $exception->getMessage()
-                ]),
-                default => view('error', [
-                    'exception' => $exception
-                ])
+        ErrorHandler::setRenderer(
+            function(Throwable $exception): ClientResponse|string {
+                $contentType = request()->negotiate('content', ['text/html', 'application/json']);
+
+                return match ($contentType) {
+                    'application/json' => json([
+                        'message' => $exception->getMessage(),
+                    ]),
+                    default => view('error', [
+                        'exception' => $exception,
+                    ])
+                };
             }
         );
     }
 
     /**
      * Build application middleware.
+     *
      * @param MiddlewareQueue $queue The MiddlewareQueue.
      * @return MiddlewareQueue The MiddlewareQueue.
      */
@@ -53,5 +57,4 @@ abstract class Application extends Engine
             ->add(CspMiddleware::class)
             ->add(RouterMiddleware::class);
     }
-
 }

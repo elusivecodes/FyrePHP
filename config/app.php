@@ -16,17 +16,17 @@ return [
         'defaultLayout' => null,
         'encoding' => 'UTF-8',
         'locale' => 'en',
-        'timezone' => 'UTC'
+        'timezone' => 'UTC',
     ],
     'Cache' => [
         'default' => [
             'className' => FileCacher::class,
-            'path' => Path::join(TMP, 'cache')
+            'path' => Path::join(TMP, 'cache'),
         ],
         'schema' => [
             'className' => FileCacher::class,
-            'path' => Path::join(TMP, 'schema')
-        ]
+            'path' => Path::join(TMP, 'schema'),
+        ],
     ],
     'Database' => [
         'default' => [
@@ -37,19 +37,19 @@ return [
             'database' => '',
             'port' => '3306',
             'collation' => 'utf8mb4_unicode_ci',
-            'charset' => 'utf8mb4'
-        ]
+            'charset' => 'utf8mb4',
+        ],
     ],
     'Error' => [
         'level' => E_ALL,
-        'log' => true
+        'log' => true,
     ],
     'Log' => [
         'default' => [
             'className' => FileLogger::class,
             'path' => LOG,
-            'threshold' => 5
-        ]
+            'threshold' => 5,
+        ],
     ],
     'Mail' => [
         'default' => [
@@ -59,16 +59,16 @@ return [
             'password' => null,
             'port' => '465',
             'auth' => false,
-            'tls' => false
-        ]
+            'tls' => false,
+        ],
     ],
     'Queue' => [
         'default' => [
-            'className' => RedisQueue::class
-        ]
+            'className' => RedisQueue::class,
+        ],
     ],
     'Session' => [
         'className' => FileSessionHandler::class,
-        'path' => Path::join(TMP, 'sessions')
-    ]
+        'path' => Path::join(TMP, 'sessions'),
+    ],
 ];

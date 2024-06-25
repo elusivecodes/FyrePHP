@@ -29,10 +29,16 @@
         "fyre/session": "^3.0",
         "fyre/view": "^7.0"
     },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.59",
+        "fyre/php-cs-fixer-config": "^1.0"
+    },
     "scripts": {
         "post-install-cmd": [
             "chmod +x ./bin/fyre",
             "chmod +x ./bin/server"
-        ]
+        ],
+        "cs": "php-cs-fixer fix --ansi --verbose --dry-run --diff",
+        "cs-fix": "php-cs-fixer fix --ansi --verbose --diff"
     }
 }
