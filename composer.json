@@ -23,10 +23,10 @@
         "fyre/loader": "^2.0",
         "fyre/log": "^3.0",
         "fyre/mail": "^2.0",
-        "fyre/migration": "^3.0",
-        "fyre/orm": "^6.0",
+        "fyre/migration": "^4.0",
+        "fyre/orm": "^7.0",
         "fyre/queue": "^2.0",
-        "fyre/session": "^3.0",
+        "fyre/session": "^4.0",
         "fyre/view": "^7.0"
     },
     "require-dev": {
