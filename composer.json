@@ -15,19 +15,21 @@
         }
     },
     "require": {
+        "fyre/auth": "^2.0",
         "fyre/cache": "^3.0",
         "fyre/command": "^4.0",
         "fyre/encryption": "3.0",
-        "fyre/engine": "^7.0",
+        "fyre/engine": "^9.0",
         "fyre/error": "^4.0",
         "fyre/loader": "^2.0",
         "fyre/log": "^3.0",
         "fyre/mail": "^2.0",
+        "fyre/make": "^1.1",
         "fyre/migration": "^4.0",
-        "fyre/orm": "^7.0",
+        "fyre/orm": "^8.0",
         "fyre/queue": "^2.0",
         "fyre/session": "^4.0",
-        "fyre/view": "^7.0"
+        "fyre/view": "^9.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.59",

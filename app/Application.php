@@ -3,9 +3,13 @@ declare(strict_types=1);
 
 namespace App;
 
+use Fyre\Auth\Middleware\AuthenticatedMiddleware;
+use Fyre\Auth\Middleware\AuthMiddleware;
+use Fyre\Auth\Middleware\AuthorizedMiddleware;
 use Fyre\Engine\Engine;
 use Fyre\Error\ErrorHandler;
 use Fyre\Middleware\MiddlewareQueue;
+use Fyre\Middleware\MiddlewareRegistry;
 use Fyre\Router\Middleware\RouterMiddleware;
 use Fyre\Security\Middleware\CspMiddleware;
 use Fyre\Security\Middleware\CsrfProtectionMiddleware;
@@ -42,6 +46,9 @@ abstract class Application extends Engine
                 };
             }
         );
+
+        MiddlewareRegistry::map('auth', AuthenticatedMiddleware::class);
+        MiddlewareRegistry::map('can', AuthorizedMiddleware::class);
     }
 
     /**
@@ -53,8 +60,13 @@ abstract class Application extends Engine
     public static function middleware(MiddlewareQueue $queue): MiddlewareQueue
     {
         return $queue
-            ->add(CsrfProtectionMiddleware::class)
-            ->add(CspMiddleware::class)
-            ->add(RouterMiddleware::class);
+            ->add(new CsrfProtectionMiddleware())
+            ->add(new CspMiddleware([
+                'default' => [],
+                'report' => [],
+                'reportTo' => [],
+            ]))
+            ->add(new RouterMiddleware())
+            ->add(new AuthMiddleware());
     }
 }
