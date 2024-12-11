@@ -23,5 +23,5 @@ composer create-project fyre/php myapp
 *FyrePHP* includes a built-in web server for development purposes.
 
 ```
-./bin/server -p 8000
+./bin/fyre server -p 8000
 ```

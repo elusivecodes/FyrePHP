@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/elusivecodes/frostui@latest/dist/frost-ui.min.css" />
 </head>
 
-<body class="d-flex vh-100 justify-content-center align-items-center text-bg-warning bg-gradient">
+<body class="d-flex vh-100 justify-content-center align-items-center text-bg-danger bg-gradient">
     <div class="container w-100">
         <div class="text-center">
             <h1 class="display-1 fw-bold mb-5">

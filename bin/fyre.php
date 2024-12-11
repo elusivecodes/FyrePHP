@@ -5,12 +5,10 @@ use Fyre\Command\CommandRunner;
 
 chdir(__DIR__);
 
-// Load Composer
-$composer = require realpath('../vendor/autoload.php');
-
 // Load application
 require realpath('../autoload.php');
 
 // Run command
-$code = CommandRunner::handle($argv);
+$code = app()->use(CommandRunner::class)->handle($argv);
+
 exit($code);

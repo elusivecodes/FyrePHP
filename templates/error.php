@@ -1,7 +1,8 @@
 <?php
+$debug = config('App.debug');
 $code = $exception->getCode();
 
-if (config('App.debug')) {
+if ($debug) {
     $title = $exception->getMessage();
 } else if ($code >= 400 && $code < 500) {
     $title = 'Page Not Found';
@@ -20,15 +21,17 @@ if (config('App.debug')) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/elusivecodes/frostui@latest/dist/frost-ui.min.css" />
 </head>
 
-<body class="d-flex vh-100 justify-content-center align-items-center text-bg-warning bg-gradient">
+<body class="d-flex vh-100 justify-content-center align-items-center text-bg-danger bg-gradient">
     <div class="container w-100">
         <div class="text-center">
+<?php if ($code) { ?>
             <h1 class="display-1 fw-bold mb-5">
                 <span style="font-size: 250%;"><?= $code; ?></span>
             </h1>
+<?php } ?>
             <p class="display-6"><?= $title; ?></p>
         </div>
-<?php if (config('App.debug')) { ?>
+<?php if ($debug) { ?>
         <div class="card shadow mt-5">
             <div class="card-body">
                 <pre class="text-danger"><?= $exception; ?></pre>

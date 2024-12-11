@@ -1,5 +1,19 @@
 #!/usr/bin/env sh
 
-exec php "$(dirname -- "$0")"/fyre.php "$@"
+if [ "$1" = "server" ]; then
+    shift
+    port=8000
+    while getopts ":p:" opt; do
+        case $opt in
+            p)
+                port=$OPTARG
+            ;;
+        esac
+    done
+
+    exec php -S localhost:${port} -t "$(dirname -- "$0")"/../public
+else
+    exec php "$(dirname -- "$0")"/fyre.php "$@"
+fi
 
 exit
