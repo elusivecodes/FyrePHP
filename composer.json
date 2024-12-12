@@ -51,8 +51,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "chmod +x ./bin/fyre",
-            "chmod +x ./bin/server"
+            "chmod +x ./bin/fyre"
         ],
         "cs": "php-cs-fixer fix --ansi --verbose --dry-run --diff",
         "cs-fix": "php-cs-fixer fix --ansi --verbose --diff"

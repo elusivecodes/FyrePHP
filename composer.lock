@@ -50,16 +50,16 @@
         },
         {
             "name": "fyre/auth",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreAuth.git",
-                "reference": "a9ecd939c758bd75edf6635d358f6363146b2ec8"
+                "reference": "2314cb53a4d10e3ba2e27a1f608edf153dc58faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreAuth/zipball/a9ecd939c758bd75edf6635d358f6363146b2ec8",
-                "reference": "a9ecd939c758bd75edf6635d358f6363146b2ec8",
+                "url": "https://api.github.com/repos/elusivecodes/FyreAuth/zipball/2314cb53a4d10e3ba2e27a1f608edf153dc58faf",
+                "reference": "2314cb53a4d10e3ba2e27a1f608edf153dc58faf",
                 "shasum": ""
             },
             "require": {
@@ -97,9 +97,9 @@
             "description": "An authentication and authorization library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreAuth/issues",
-                "source": "https://github.com/elusivecodes/FyreAuth/tree/v3.0.1"
+                "source": "https://github.com/elusivecodes/FyreAuth/tree/v3.0.2"
             },
-            "time": "2024-12-10T08:57:44+00:00"
+            "time": "2024-12-12T14:20:04+00:00"
         },
         {
             "name": "fyre/cache",
@@ -1826,16 +1826,16 @@
         },
         {
             "name": "fyre/router",
-            "version": "v7.0",
+            "version": "v7.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreRouter.git",
-                "reference": "e827424369b917637d2e4d9351f49b8e702a9efc"
+                "reference": "42b883200be570324410a074efc75c1e771c1db9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreRouter/zipball/e827424369b917637d2e4d9351f49b8e702a9efc",
-                "reference": "e827424369b917637d2e4d9351f49b8e702a9efc",
+                "url": "https://api.github.com/repos/elusivecodes/FyreRouter/zipball/42b883200be570324410a074efc75c1e771c1db9",
+                "reference": "42b883200be570324410a074efc75c1e771c1db9",
                 "shasum": ""
             },
             "require": {
@@ -1870,9 +1870,9 @@
             "description": "A URL routing library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreRouter/issues",
-                "source": "https://github.com/elusivecodes/FyreRouter/tree/v7.0"
+                "source": "https://github.com/elusivecodes/FyreRouter/tree/v7.0.1"
             },
-            "time": "2024-11-27T07:24:56+00:00"
+            "time": "2024-12-12T14:11:33+00:00"
         },
         {
             "name": "fyre/schema",
@@ -1976,16 +1976,16 @@
         },
         {
             "name": "fyre/session",
-            "version": "v5.0.1",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elusivecodes/FyreSession.git",
-                "reference": "15546258d65ad2dbae5c559c651440e60e135fbf"
+                "reference": "f22bebefb9adf6683bc319e34cdfc4fc6d349762"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elusivecodes/FyreSession/zipball/15546258d65ad2dbae5c559c651440e60e135fbf",
-                "reference": "15546258d65ad2dbae5c559c651440e60e135fbf",
+                "url": "https://api.github.com/repos/elusivecodes/FyreSession/zipball/f22bebefb9adf6683bc319e34cdfc4fc6d349762",
+                "reference": "f22bebefb9adf6683bc319e34cdfc4fc6d349762",
                 "shasum": ""
             },
             "require": {
@@ -2020,9 +2020,9 @@
             "description": "A session library.",
             "support": {
                 "issues": "https://github.com/elusivecodes/FyreSession/issues",
-                "source": "https://github.com/elusivecodes/FyreSession/tree/v5.0.1"
+                "source": "https://github.com/elusivecodes/FyreSession/tree/v5.0.2"
             },
-            "time": "2024-11-17T00:58:42+00:00"
+            "time": "2024-12-12T14:09:34+00:00"
         },
         {
             "name": "fyre/timer",
@@ -3592,16 +3592,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.2.0",
+            "version": "v7.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "23c8aae6d764e2bae02d2a99f7532a7f6ed619cf"
+                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/23c8aae6d764e2bae02d2a99f7532a7f6ed619cf",
-                "reference": "23c8aae6d764e2bae02d2a99f7532a7f6ed619cf",
+                "url": "https://api.github.com/repos/symfony/console/zipball/fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
+                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
                 "shasum": ""
             },
             "require": {
@@ -3665,7 +3665,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.2.0"
+                "source": "https://github.com/symfony/console/tree/v7.2.1"
             },
             "funding": [
                 {
@@ -3681,7 +3681,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-06T14:24:19+00:00"
+            "time": "2024-12-11T03:49:26+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
