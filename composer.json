@@ -36,7 +36,7 @@
         "fyre/make": "^2.0",
         "fyre/middleware": "^6.0",
         "fyre/migration": "^5.0",
-        "fyre/orm": "^10.0",
+        "fyre/orm": "^11.0",
         "fyre/queue": "^3.0",
         "fyre/router": "^7.0",
         "fyre/server": "^4.0",

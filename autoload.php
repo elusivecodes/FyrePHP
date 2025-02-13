@@ -27,5 +27,7 @@ define('TMP', Path::join(ROOT, 'tmp'));
 
 // Boot application
 $app = new Application($loader);
+
 Application::setInstance($app);
+
 $app->call([$app, 'boot']);
