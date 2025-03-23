@@ -28,6 +28,7 @@
         "fyre/engine": "^10.0",
         "fyre/entity": "^5.0",
         "fyre/error": "^6.0",
+        "fyre/event": "^4.1",
         "fyre/forge": "^5.0",
         "fyre/formatter": "^4.1",
         "fyre/iterator": "^5.0",
